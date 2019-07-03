@@ -26,9 +26,15 @@
     "colors": "^1.1.2",
     "json2csv": "^3.1.0",
     "request": "^2.69.0",
-    "tabletojson": "^0.4.0"
+    "tabletojson": "^0.4.0",
+    "snyk": "^1.189.0"
   },
   "engines": {
     "node": "*"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
