@@ -22,7 +22,7 @@
     "url": "git://github.com/misterGF/echo.git"
   },
   "dependencies": {
-    "cheerio": "0.19.0",
+    "cheerio": "0.20.0",
     "colors": "^1.1.2",
     "json2csv": "^3.1.0",
     "request": "^2.69.0",
